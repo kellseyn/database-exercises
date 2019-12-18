@@ -1,10 +1,11 @@
 USE codeup_db;
+DROP TABLE IF EXISTS albums;
 CREATE TABLE IF NOT EXISTS albums(
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  artist VARCHAR (50) NOT NULL,
-  name VARCHAR(50) NOT NULL,
-  release_date DATE,
+  artist VARCHAR (99) NOT NULL,
+  name VARCHAR(99) NOT NULL,
+  release_date INT,
   sales FLOAT NOT NULL,
-  genre VARCHAR (50) NOT NULL,
+  genre VARCHAR (99) NOT NULL,
   PRIMARY KEY(id)
 );

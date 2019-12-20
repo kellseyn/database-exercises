@@ -4,3 +4,4 @@ birth_date AS DOB
 FROM employees
 LIMIT 10;
 
+describe titles;

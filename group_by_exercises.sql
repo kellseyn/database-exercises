@@ -18,3 +18,4 @@ SELECT  COUNT(*), gender
 FROM employees where first_name IN ('Irena','Maya','Vidya')
 GROUP BY gender
 ORDER BY COUNT(*);
+
